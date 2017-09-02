@@ -1,11 +1,11 @@
-require 'f5/icontrol/common/enabled_state'
-require 'f5/icontrol/locallb/enabled_status'
-require 'f5/icontrol/locallb/profile_type'
-require 'f5/icontrol/locallb/profile_context_type'
-require 'f5/icontrol/locallb/virtual_server/source_address_translation'
-
 module ChefF5
   class Client
+    require 'f5/icontrol/common/enabled_state'
+    require 'f5/icontrol/locallb/enabled_status'
+    require 'f5/icontrol/locallb/profile_type'
+    require 'f5/icontrol/locallb/profile_context_type'
+    require 'f5/icontrol/locallb/virtual_server/source_address_translation'
+
 
     def initialize(node, resource, load_balancer)
       @node = node
