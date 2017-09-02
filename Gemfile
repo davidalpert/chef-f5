@@ -19,4 +19,4 @@ gem 'guard-shell'
 gem 'guard-rspec', require: false
 gem 'vagrant-wrapper'
 
-gem 'f5-icontrol', '0.2.6'
+gem 'f5-icontrol', :git => 'https://github.com/davidalpert/f5-icontrol', :branch => 'nokogiri'
